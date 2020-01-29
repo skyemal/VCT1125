@@ -1,0 +1,227 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title>*Vital CSS*</title>
+	<script src="https://kit.fontawesome.com/8f5020c562.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+		integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+		<script src="https://kit.fontawesome.com/yourcode.js"></script>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"></script>
+		<link href="https://fonts.googleapis.com/css?family=ABeeZee|Satisfy|Vidaloka&display=swap" rel="stylesheet">
+	</head>
+<header>
+	<nav class="navbar navbar-expand-lg navbar-default navbar-fixed-top .container-fluid navbar-light bg-light">
+		<a class="navbar-brand" href="">
+				<img class="logo" src="images/skye1.jpg">
+		</a>
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<ul class="navbar-nav mr-auto">
+
+				<li class="nav-item">
+					<a class="nav-link" href="#select">Selectors</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#boxmod">Box Model</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#posi">Positioning</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#floats">Floats</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#icons">Icons</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#linx">Links</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#aligns">Alignment</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+
+</header>
+
+<body>
+	<div id="header">
+		<h1>Vital CSS</h1>
+	</div>
+	 <div class="astrodivider"><div class="astrodividermask"></div><span><i>&#10038;</i></span></div>
+	<section id="select">
+		
+		<h2>CSS Selectors</h2>
+		<p>When using CSS, selectors help you target specific elements in your HTML code. They can help you change the
+			design, font, color, and placement of the elements on your page. </p>
+		<div class="container">
+			<div class="row">
+				<div class="col-sm" id="select1">
+					<p>The "background-color" selector was used to change the background color of this section of the
+						page</p>
+				</div>
+				<div class="col-sm" id="select2">
+					<p>The font can be changed using "font-family". You can use different fonts for any element,
+						although with
+						web pages, the maximum number of fonts you want to use is 3. </p>
+					<p id="tdec">You can also change your font to be bold, italic, or underlined, using the
+						"text-decoration"
+						syntax. </p>
+				</div>
+				<div class="col-sm" id="select3">
+					<p>You can target more than one element using selectors as well. For example, I could select both
+						elements
+						in this area by using the syntax: "div p {
+						background-color: purple;
+						}"</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md" id="select4">
+					<p>The grouping selector allows you to change all elements of the same type with one selector.
+						<h4 id="hh">For Example</h4>
+						<h4 id="hh">For Example</h4>
+						<h4 id="hh">For Example</h4>
+						These were made using the "h4" syntax, and then edited in the CSS file using the same selector.
+					</p>
+				</div>
+				<div class="col-md" id="select5">
+					<p>
+						The universal selector '*' is used to target all elements on the webpage
+						If you want to have a unified text color, background color, etc., you would use the universal
+						selector.
+					</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	 <div class="astrodivider"><div class="astrodividermask"></div><span><i>&#10038;</i></span></div>
+	<section id="boxmod">
+		<h2>The Box Model</h2>
+		<div class="box1">
+			<p>With CSS, the "Box Model" refers to the design and layout of a web page. It refers to the model that
+				every HTML element can be contained in a box, consisting of the
+				<i>margin</i>,<i>border</i>,<i>padding</i> and <i>content</i>.</p>
+
+			<p class="boxmod1">
+				This box showcases the box model.
+				The padding is set at 10px, the margin is set at 50px for top and bottom and 30px for left and right, with a solid black border, and the text and image inside this box is
+				the content.
+				<img src="images/box.jpg"></p>
+		</div>
+
+	</section>
+	 <div class="astrodivider"><div class="astrodividermask"></div><span><i>&#10038;</i></span></div>
+	<section id="posi">
+		<h2>Positions</h2>
+		<div class="container">
+			<div class="row">
+					
+						
+			<div class="col-md" id="posi1">
+				<h3>Static Positioning</h3>
+				<p>The content in this div is static. The "static" position is the default. It's not affected by top,
+					bottom, right or left properties. </p>
+			</div>
+			<div class="col-md" id="posi4">
+					<h3>Absolute Positioning</h3>
+					<p>With absolute positioning, an element is positioned absolutely to its first positioned parent, like
+						the
+						text in this div. </p>
+				</div>
+		</div>
+			<div class="row">
+			<div class="col-md" id="posi2">
+				<h3>Relative Positioning</h3>
+				<p>This div has the "relative" position. Any element with relative positioning is positioned
+					<i>relative</i>
+					to its normal position. </p>
+			</div>
+			<div class="col.md" id="posi3">
+				<h3>Fixed Positioning</h3>
+				<p>Fixed positioning is used to keep an element in the same position, regardless of scrolling. It was
+					used
+					for the navigation bar of this page.</p>
+			</div>
+			
+		</div>
+		</div>
+	</section>
+	 <div class="astrodivider"><div class="astrodividermask"></div><span><i>&#10038;</i></span></div>
+	<section id="floats">
+		<h2>Floats</h2>
+		<div class="container">
+			<p>Similar to positioning, Float is used to position and format elements of a web page. </p>
+			<div id="float1">
+				<p>This image was positioned using "float:left"</p>
+				<img src="images/air.jpg">
+			</div>
+			<div id="float2">
+				<p>This image was positioned using "float:right"</p>
+				<img src="images/code1.jpg">
+			</div>
+			<div id="float3">
+				<p>With "float:none", the image will remain exactly <img src="images/web1.jpg">where it is placed in the text. </p>
+				
+			</div>
+			<div id="float4">
+				<p>With "clear", this property specifies which elements next to the cleared element can float, and on
+					which
+					side. </p>
+					<img src="images/lightning.jpg">
+			</div>
+			<div id="float5">
+				<h5> The Clearfix Hack</h5>
+				<p> When an element is bigger than the element containing it, there can be an overflow, causing elements
+					on
+					a page to lose its aesthetic value. By using "overflow: auto;", it can fix this issue.
+				</p>
+			</div>
+		</div>
+	</section>
+	 <div class="astrodivider"><div class="astrodividermask"></div><span><i>&#10038;</i></span></div>
+	<section id="icon">
+		<h2>CSS Icons</h2>
+		<div id="icons">
+			<p>There are several ways to add icons to your website. A few of the most popular are using:
+				<h5>Font Awesome</h5>
+				<i class="fab fa-amazon fa-4x"></i>
+				<i class="fas fa-gamepad fa-4x"></i>
+				<h5>Bootstrap Icons</h5>
+				<i class="glyphicon glyphicon-phone"></i>
+				<i class="glyphicon glyphicon-floppy-save"></i>
+				
+		</div>
+	</section>
+	 <div class="astrodivider"><div class="astrodividermask"></div><span><i>&#10038;</i></span></div>
+	<section id="linx">
+		<h2>CSS Links</h2>
+		<div id="linx1">
+			<p>Links, both external and internal, can be styled in different ways on a website. You can use any CSS
+				property to style them.
+
+			</p>
+			<span style="cursor:progress"><a id="linxb3" href="www.google.com">Google</a></span>
+			<button id="linxb2"><a href="www.facebook.com">Facebook</a></button>
+			<button id="linxb"><a href="www.century.edu">Century College</a></button>
+
+		</div>
+	</section>
+	 <div class="astrodivider"><div class="astrodividermask"></div><span><i>&#10038;</i></span></div>
+	<section id="aligns">
+		<h2>CSS Alignment</h2>
+		<div id="align1">
+			<p>With CSS Alignment, you can use syntax to align elements in any position.</p>
+			<h5 id="a1">I'm left-aligned</h5>
+			<h5 id="a2">I'm center-aligned</h5>
+			<h5 id="a3">I'm right-aligned</h5>
+		</div>
+	</section>
+
+</body>
+
+</html>
